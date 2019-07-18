@@ -12,6 +12,7 @@ class Student
 
   def self.create_table
     sql = <<SQL
+      
     
     SQL
   # Remember, you can access your database connection anywhere in this class
