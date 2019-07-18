@@ -35,5 +35,7 @@ class Student
         INSERT INTO students (name, album)
         VALUES (?, ?)
       SQL
+      
+      DB[:conn].execute(sql)
     end
 end
